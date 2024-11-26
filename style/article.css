@@ -1,0 +1,103 @@
+#back_btn_div{
+    margin-top: 10px; 
+    padding: 1%;
+}
+
+#back_btn{
+    text-decoration: none; 
+    padding:15px; 
+    background-color: aquamarine; 
+    border-radius: 25px;
+}
+
+#article_item{
+    margin-top: 20px; 
+    border-radius: 25px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); padding: 20px; text-align: center; width: 70%;
+}
+
+#content{
+    font-size: 20px; 
+    width: 100%; 
+    text-align: justify;
+}
+
+#delete_btn_area{
+    position: fixed; 
+    bottom: 60px;
+    right: 5px; 
+    padding: 15px; 
+    background-color: red; 
+    border-radius: 45px;
+}
+
+#add_btn_area{
+    position: fixed; 
+    bottom: 60px;
+    right: 5px; 
+    padding: 15px; 
+    background-color: aqua; 
+    border-radius: 45px;
+}
+input[type=file]::-webkit-file-upload-button{
+    border-radius: 25px;
+    border-style: none;
+    padding: 5%;
+}
+
+select{
+    border-radius: 25px;
+    padding: 1%;
+    border-style: none;
+}
+
+input, textarea{
+    padding: 1%;
+    margin: 2% 2% 2% 0;
+}
+input[type=text], textarea{
+    width: 100%;
+    border-radius: 25px;
+    border-style: ridge;
+}
+label{
+    font-size: 20px;
+}
+#article_content{
+    padding-bottom: 20%;
+}
+input[type=submit], button{
+    background-color: orange;
+    border-style: none;
+    border-radius: 25px;
+    padding: 2%;
+}
+#container{
+    border-radius: 25px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); /* Je voulais l'ombre du Material Design */
+    text-align: center; 
+    width: 70%; 
+    padding: 5%; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+#article_elt{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+    border-radius: 25px; 
+    width: max; 
+    overflow: auto; 
+    padding: 1%;
+    margin: 10px;
+}
+#author_date{
+    float: left;
+    margin-left: 15px;
+}
+
+.dark_mode{
+    #article_item *, #container *{
+        color: rgba(255, 255, 255, 0.74);
+    }
+}

@@ -1,0 +1,18 @@
+#article_container{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+    border-radius: 25px; 
+    width: max; 
+    overflow: auto; 
+    padding: 1%;
+    margin: 10px;
+}
+#author_date{
+    float: left;
+}
+
+.dark_mode{
+    
+    #article_container *, #author_date * {
+        color: rgba(255, 255, 255, 0.74);
+    }
+}

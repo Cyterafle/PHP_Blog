@@ -1,0 +1,90 @@
+ul.tabs{
+    list-style-type: none;
+    overflow: hidden;
+    align-items: center;
+    width: 100%;
+}
+#infos{
+    width: max; 
+    overflow: auto; 
+}
+
+#cred{
+    width: 65%;
+    float: left; 
+    word-wrap: break-word; 
+    margin-left: 15px;
+}
+
+#cred > p {
+    width: max-width;
+}
+
+li.tabs{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: white;
+    border-radius: 25px;
+}
+li.tabs:hover, li.tabs:focus{
+    color: rgb(1, 162, 255);
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+li.tabs::selection{
+    background-color: blue;
+    border-radius: 25px;
+}
+div.info_content > div{
+    display:none;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 25px;
+    width:auto;
+    height: auto;
+    padding: 14px
+}
+div.info_content > div:target{
+    display: block;
+}
+.profile_btn{
+    padding: 10px;
+    border-radius: 25px;
+    align-self: center;
+    border-style: none;
+    margin: 5px;
+    background-color: orange;
+}
+a{
+    text-decoration: none;
+}
+
+div.info_content{
+    height: fit-content;
+}
+div.info_content h2{
+    margin: 20px 0 20px 0;
+}
+
+#infos{
+    width: max; 
+    overflow: auto;
+}
+
+#empty{
+    font-style: italic;
+    font-size: 30px;
+}
+
+.dark_mode{
+    li.tabs{
+        background-color: #212121;
+    }
+
+    #infos *, .tabs *{
+    color: rgba(255, 255, 255, 0.74);
+    }
+}

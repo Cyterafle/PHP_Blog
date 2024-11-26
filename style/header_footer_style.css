@@ -1,0 +1,52 @@
+#header_nav{
+    background-color: orange;
+    border-radius: 90px;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar_items{
+    float: right;
+    margin-top: 16px;
+    padding: 15px;
+}
+
+h2{
+    margin-block-end: auto;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+#login_elt{
+    background-color: rgb(1, 162, 255);
+    border-radius: 90px;
+    margin-right: 15px;
+}
+
+#language_switch{
+    border-style: none;
+    background-color: orange;
+    font-size: 17px;
+    padding: 0;
+}
+
+#footer{
+    text-align: center;
+    background-color: orange;  
+    position: fixed;
+    bottom: 0px; 
+    left: 0px; 
+    width: 100%;
+}
+
+p{
+    color: black;
+}

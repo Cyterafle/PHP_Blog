@@ -1,0 +1,52 @@
+.actions{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.welcome_btn{ 
+    padding: 1%; 
+    background-color: orange; 
+    border-radius: 25px;
+    margin-left: 5px;
+}
+
+.best_authors{
+    padding-bottom: 5%;
+}
+
+#no_posts, #no_authors{
+    margin: 0;
+    text-align: center;
+    color: gray;
+}
+
+#author{
+    float: left; 
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+    border-radius: 25px; 
+    width: 30%; 
+    height: max; 
+    overflow: auto; 
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#author h2{
+    margin: 15px;
+}
+
+.dark_mode{
+    #no_posts, #no_authors{
+        margin: 0;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.74);
+    }
+
+    h1, h2, #welcome_p{
+        color: rgba(255, 255, 255, 0.74);
+    }
+    a *{
+    color: rgba(255, 255, 255, 0.74);
+    }
+}
